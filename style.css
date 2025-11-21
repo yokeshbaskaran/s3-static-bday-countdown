@@ -68,9 +68,17 @@ li span {
   padding: 1px 0;
 }
 
+.utc {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  /* border: 2px solid red; */
+}
+
 div > p {
   color: white;
   font-weight: 500;
+  /* border: 2px solid red; */
 }
 
 strong {
