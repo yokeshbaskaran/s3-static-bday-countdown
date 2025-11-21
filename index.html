@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birthday Countdown</title>
+  <link rel="icon" type="image/png" href="icon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <main>
+    <div class="inside">
+
+      <!-- Title -->
+      <div class="name">
+        <span class="bday">5 May 2026</span>
+        <h2>My Birthday in:</h2>
+      </div>
+
+      <!-- Timer List -->
+      <div class="time">
+        <ul>
+          <li><span id="days">0</span> days</li>
+          <li><span id="hours">0</span> hours</li>
+          <li><span id="minutes">0</span> minutes</li>
+          <li><span id="seconds">0</span> seconds</li>
+        </ul>
+      </div>
+
+      <hr style="margin: 20px 0;" />
+
+      <!-- Timezone Section -->
+      <div class="zone">
+        <p class="utc"><strong>UTC Timezone: </strong> <span id="utc"></span> UTC</p>
+
+        <p><strong>Yoki Timezone: </strong> <span id="mumbai"></span> IST</p>
+
+
+
+        <p><strong>New York Timezone: </strong> <span id="newyork"></span> UTC-5</p>
+
+        <p><strong>London Timezone: </strong> <span id="london"></span> UTC+0</p>
+
+        <p><strong>Your Browser Timezone: </strong> <span id="browser"></span></p>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-text">
+      Made with 💖 by <strong class="footer-author">Yokesh B</strong>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
