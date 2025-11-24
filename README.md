@@ -29,6 +29,8 @@ This project uses a simple, serverless architecture:
 
 -> No Lambda, no API Gateway, no DynamoDB—just front-end logic running directly in the user's browser.
 
+---
+
 ### ✅ Project Creation Steps:
 
 1.  Create project structure
@@ -44,6 +46,8 @@ This project uses a simple, serverless architecture:
 8.  Upload project files (html + css + js)
 9.  Make files public
 10. Access the website (S3 Static Web Hosting)
+
+---
 
 Refer to the full documentation for detailed implementation steps.
 
