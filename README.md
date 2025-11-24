@@ -4,18 +4,18 @@ A lightweight **static Birthday Countdown website** hosted on **AWS S3**. This p
 
 ## 🚀 Features
 
-- **Real-time countdown**
-- **Fully static & serverless**
-- **Lightweight & fast**
-- **Easy customization**
-- **Low-cost hosting**
+- Real-time countdown
+- Fully static & serverless
+- Lightweight & fast
+- Easy customization
+- Low-cost hosting
 
 ## 🏗️ Architecture Overview
 
 This project uses a simple, serverless architecture:
 
 ```
-    Browser             (User)
+    User Browser
         |
         V
    S3 Static Website Hosting
@@ -29,11 +29,7 @@ This project uses a simple, serverless architecture:
 
 -> No Lambda, no API Gateway, no DynamoDB—just front-end logic running directly in the user's browser.
 
-## 📦 Instructions
-
-# ✅ Project Creation Steps:
-
----
+### ✅ Project Creation Steps:
 
 1.  Create project structure
 2.  Build the HTML file (.html)
@@ -41,9 +37,7 @@ This project uses a simple, serverless architecture:
 4.  Add countdown JavaScript (.js)
 5.  Test locally (development)
 
----
-
-# 🚀 Deployment Steps:
+### 🚀 Deployment Steps:
 
 6.  Create an AWS S3 bucket
 7.  Enable static website hosting
@@ -51,11 +45,9 @@ This project uses a simple, serverless architecture:
 9.  Make files public
 10. Access the website (S3 Static Web Hosting)
 
----
-
 Refer to the full documentation for detailed implementation steps.
 
-📄Documentation: [documentation.pdf](https://github.com/user-attachments/files/23713031/documentation.pdf)
+📄Documentation: [documentation.pdf](https://github.com/user-attachments/files/23713220/documentation.pdf)
 
 ## 📅 Example Countdown Output
 
@@ -69,8 +61,8 @@ Refer to the full documentation for detailed implementation steps.
 
 ## 🌐 Live Page URL
 
-Livepage URL: [Dynamic Visitor Counter Live Page](http://s3-static-bday-countdown.s3-website.ap-south-1.amazonaws.com)
+Livepage URL: [Birthday Countdown LivePage](http://s3-static-bday-countdown.s3-website.ap-south-1.amazonaws.com)
 
 ## 🖼️ Preview
 
-_(Insert screenshot or GIF if available)_
+![Image](https://github.com/user-attachments/assets/fd5871ba-c334-446b-82aa-ed5bdaf40844)
