@@ -7,7 +7,7 @@ A lightweight **static Birthday Countdown website** hosted on **AWS S3**. This p
 - Real-time countdown
 - Fully static & serverless
 - Lightweight & fast
-- Easy customization
+- Easy customisation
 - Low-cost hosting
 
 ## 🏗️ Architecture Overview
@@ -43,13 +43,13 @@ This project uses a simple, serverless architecture:
 
 6.  Create an AWS S3 bucket
 7.  Enable static website hosting
-8.  Upload project files (html + css + js)
+8.  Upload project files (HTML + CSS + JS)
 9.  Make files public
 10. Access the website (S3 Static Web Hosting)
 
 -> Refer to the full documentation for detailed implementation steps.
 
-📄Documentation: [documentation.pdf](https://github.com/user-attachments/files/23713220/documentation.pdf)
+📄Documentation: [documentation.pdf](https://github.com/user-attachments/files/23960316/s3-static-bday-countdown.pdf)
 
 ## 📅 Example Countdown Output
 
